@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/dvp-week12-app"   // <-- change this
+        IMAGE_NAME = "shalinimunuswamy/dvp-week12-app"   // <-- change this
         IMAGE_TAG  = "${env.BUILD_NUMBER}"
         CONTAINER  = "dvp-week12-app"
     }
